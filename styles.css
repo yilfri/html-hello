@@ -19,10 +19,8 @@ h1 {
 .card {
     display: block;
     width: 600px;
-    height: 200px;
-    margin: 0 auto;
-    /* s */
-    border: 1px solid black
+    margin: 30px auto;
+    background: white;
 }
 
 .card-header {
@@ -53,4 +51,15 @@ h1 {
 
 .card-img img{
     width: 100%;
+}
+
+.card-footer {
+    font-family: Arial, sans-serif;
+}
+
+.card-footer p {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
 }
